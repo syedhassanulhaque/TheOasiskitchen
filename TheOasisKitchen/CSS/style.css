@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: cursive !important;
+}
+
+body{
+    width: 100vw !important;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important; 
+    background: url("/TheOasisKitchen/img/back2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#navbar{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    position: absolute;
+    top: 40vh;
+}
+.container>h1{
+    font-family: cursive;
+    font-size: 2rem;
+    
+}
+.container>p{
+    font-family: cursive;
+}
+
+
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: red;
+}
